@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="FoyoA12EMr1Z94TpRMhW">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-1" value="&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;1 - Faça um algoritmo em FLUXOGRAMA para ler as dimensões de um terreno retangular e depois exibir a área do terreno.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="10" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-4" target="CH38KBkyIG1CknIm1Qpm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-4" value="Inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-5" target="CH38KBkyIG1CknIm1Qpm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-5" value="Lado&amp;nbsp;&lt;div&gt;Comprimento&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-6" value="Area= lado*&lt;div&gt;Comprimento&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="430" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-7" value="Exibir valor da&amp;nbsp;&lt;div&gt;Area&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-8" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.564;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-6" target="CH38KBkyIG1CknIm1Qpm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.454;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-7" target="CH38KBkyIG1CknIm1Qpm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-13" value="&#xa;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;2 - Faça um algoritmo em FLUXOGRAMA para calcular quantas ferraduras são necessárias para equipar todos os cavalos comprados para um haras (estabelecimento onde se criam cavalos).&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="880" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-14" target="CH38KBkyIG1CknIm1Qpm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-14" value="inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1090" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-15" target="CH38KBkyIG1CknIm1Qpm-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-15" value="Quabtidade de&amp;nbsp;&lt;div&gt;Cavalos&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="337" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-16" value="Ferraduras=quantidade&lt;div&gt;Cavalos *4&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1400" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-17" value="Exibir Quantodade de Ferraduras" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="342" y="1550" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-18" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="337" y="1719" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-19" value="&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;3 - Faça um algoritmo em FLUXOGRAMA para ler a idade de uma pessoa, e exibir quantos dias de vida ela possui. Considere sempre anos completos, e que um ano possui 365 dias.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1890" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-20" target="CH38KBkyIG1CknIm1Qpm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-20" value="inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="335" y="2080" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-21" target="CH38KBkyIG1CknIm1Qpm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-21" value="Idade" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="343" y="2240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-22" value="Dias de Vida = Idade&lt;div&gt;* 365&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="2400" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-23" value="Exibir Dias de vida" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="353" y="2560" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-24" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="343" y="2720" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-25" value="&#xa;&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;4 - Faça um algoritmo em FLUXOGRAMA que leia a idade de uma pessoa e exiba em dias e meses.&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="2920" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-26" target="CH38KBkyIG1CknIm1Qpm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-26" value="inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="3080" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-27" target="CH38KBkyIG1CknIm1Qpm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-27" value="Idade" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="353" y="3240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-28" target="CH38KBkyIG1CknIm1Qpm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-28" value="Dias de Vida = Idade&lt;div&gt;* 365&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="351" y="3400" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-29" value="Exibir Dias de vida&lt;div&gt;e Meses de vida&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="3660" width="123" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-30" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="361" y="3790" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-31" value="Meses de Vida =&amp;nbsp;&lt;div&gt;iadede * 12&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="3530" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-32" value="&lt;span style=&quot;color: rgb(31, 35, 40); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;5 - Faça um algoritmo em FLUXOGRAMA que leia as 3 notas de um aluno e calcule a média final deste aluno.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="4000" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-33" target="CH38KBkyIG1CknIm1Qpm-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-33" value="inicio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="361" y="4160" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-34" target="CH38KBkyIG1CknIm1Qpm-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-34" value="Nota1&lt;div&gt;Nota2&lt;/div&gt;&lt;div&gt;Nota3&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="369" y="4320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-35" value="Média = (Nota1 +&lt;div&gt;Nota2 +Nota3) / 3&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="367" y="4480" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-36" value="Exibir Média" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="379" y="4640" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-37" value="fim" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="369" y="4800" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-16" target="CH38KBkyIG1CknIm1Qpm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-17" target="CH38KBkyIG1CknIm1Qpm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-22" target="CH38KBkyIG1CknIm1Qpm-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-23" target="CH38KBkyIG1CknIm1Qpm-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-31" target="CH38KBkyIG1CknIm1Qpm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-29" target="CH38KBkyIG1CknIm1Qpm-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-35" target="CH38KBkyIG1CknIm1Qpm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CH38KBkyIG1CknIm1Qpm-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CH38KBkyIG1CknIm1Qpm-36" target="CH38KBkyIG1CknIm1Qpm-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
