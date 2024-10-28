@@ -24,10 +24,11 @@ function executarPrograma() {
     const media = calcularMedia(numero1, numero2, numero3);
 
     // Exibir resultados no console
-    
+
     console.log(`A soma dos números é: ${soma}`);
     console.log(`A média dos números é: ${media}`);
 }
 
 // Chamar a função principal para executar o programa
+
 executarPrograma();
