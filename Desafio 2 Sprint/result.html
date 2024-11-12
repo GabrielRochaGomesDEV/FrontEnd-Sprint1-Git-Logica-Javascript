@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado da Simulação de Investimento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="menu">
+        <nav>
+           <div class="logo">
+               <span> Simulador de Investimentos</span>
+           </div>
+         
+            <ul>
+               <li><a href="https://www.b3.com.br/pt_br/institucional" target="_blank">[B3]³</a></li>
+               
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="resultado-container">
+        <h2>Resultados da Simulação de Investimento</h2>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Função para exibir os resultados na página de resultados
+        function exibirResultados() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const resultadoJSON = urlParams.get('data');
+            
+            if (resultadoJSON) {
+                const resultado = JSON.parse(decodeURIComponent(resultadoJSON));
+                document.getElementById('resultado').innerHTML = resultado.resultadoHTML;
+            } else {
+                document.getElementById('resultado').innerHTML = "<p>Não foi possível carregar os resultados.</p>";
+            }
+        }
+
+        // Chama a função para exibir os resultados assim que a página carregar
+        window.onload = exibirResultados;
+    </script>
+
+<footer>
+    © 2024 Site - Todos os direitos reservados
+</footer>
+
+</body>
+</html>

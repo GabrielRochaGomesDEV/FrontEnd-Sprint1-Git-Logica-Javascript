@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Desafio JavaScript Simulador de Investimento</title>
+    <title>Simulador de Investimentos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-     
-     
-    <script src="desafio2.js"></script>
 
+    <div class="menu">
+        <nav>
+           <div class="logo">
+               <span> Simulador de Investimentos</span>
+           </div>
+         
+            <ul>
+               <li><a href="https://www.b3.com.br/pt_br/institucional" target="_blank">[B3]³</a></li>
+               
+            </ul>
+
+        </nav>
+    </div>
+
+    <div class="form-container">
+
+        <h1>Bem-vindo!</h1>
+
+        <h2>Preencha os dados abaixo:</h2>
+
+        <!-- Formulário para o usuário preencher -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" placeholder="Digite sua idade" min="18" max="65">
+
+        <label for="renda">Renda Mensal (R$):</label>
+        <input type="number" id="renda" placeholder="Digite sua renda mensal" min="0" step="0.01">
+
+        <label for="pergunta1">Você tem formação na área financeira?</label>
+        <select id="pergunta1">
+            <option value="1">1. Sim, sem experiência</option>
+            <option value="2">2. Sim, com experiência</option>
+            <option value="3">3. Não, mas tenho experiência</option>
+            <option value="4">4. Não, com pouca experiência</option>
+            <option value="5">5. Não, e não tenho experiência</option>
+        </select>
+
+        <label for="pergunta2">Qual produto você conhece?</label>
+        <select id="pergunta2">
+            <option value="1">1. Poupança, depósito a prazo</option>
+            <option value="2">2. Tesouro Direto, renda variável</option>
+            <option value="3">3. Produtos 1 e 2</option>
+            <option value="4">4. Nunca investiu, mas conheço alguns produtos</option>
+            <option value="5">5. Nunca investi e não conheço nenhum</option>
+        </select>
+
+        <button id="btnSimular">Simular Investimento</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        © 2024 Site - Todos os direitos reservados
+    </footer>
 
 </body>
 </html>
-
