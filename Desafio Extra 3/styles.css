@@ -1,0 +1,28 @@
+/* Estilos simples para deixar a página mais agradável */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
