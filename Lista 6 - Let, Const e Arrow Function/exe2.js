@@ -15,7 +15,7 @@ function realizarDivisao() {
 
     let resultado = valor1 / valor2;
 
-    // Imprimir o resultado utilizando interpolação
+    // resultado utilizando interpolação
     console.log(`O resultado da divisão de ${valor1} por ${valor2} é: ${resultado}`);
 }
 
