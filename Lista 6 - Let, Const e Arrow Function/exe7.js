@@ -18,6 +18,6 @@ const mostrarPrimos = (limite) => {
     console.log(`Primos entre 1 e ${limite}: ${primos.slice(0, -2)}`); // Remove a última vírgula e espaço
 };
 
-// Exemplo de uso
+// Exemplo 
 const limite = 20; // Altere o limite como quiser
 mostrarPrimos(limite);
